@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.searchPage__header img {
+    object-fit: contain;
+    height: 50px;
+    margin-right: 50px;
+}
+.searchPage__option img{
+    object-fit: initial;
+    height: initial;
+    margin: initial;
+    opacity: .6;
+}
+
+.searchPage__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    padding: 30px;
+    z-index: 100;
+}
+.searchPage__headerBody .search .search__input{
+    margin: unset;
+    width: unset;
+    max-width: unset;
+}
+.searchPage__options{
+    display: flex;
+    align-items: center;
+    color:gray;
+    padding-right: 25px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.searchPage__options a{
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+.searchPage__optionsRight,
+.searchPage__optionsLeft {
+    display: flex;
+}
+.searchPage__optionsRight {
+    margin-left: 80px;
+}
+.searchPage__option{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.searchPage__option > *{
+    margin-left: 3px;
+}
+.searchPage__headerLeft{
+    display: flex;
+}
+.searchPage__headerRight{
+    display: flex;
+    align-items: center;
+}
+.searchPage__headerRight > *{
+    margin-right: 20px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover{
+    background-color: #ece3e3;
+}
+.searchPage__results{
+    font-family: arial,sans-serif;
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 230px;
+    margin-bottom: 100px;
+}
+.searchPage__resultCount{
+    color:#70757a;
+    font-size: 14px;
+}
+
+.searchPage__displayLink {
+    text-decoration: none;
+    color: #70757a;
+    display: flex;
+    align-items: center;
+}
+.searchPage__resultTitle{
+    margin: 0;
+    text-decoration: none;
+}
+.searchPage__resultTitle:hover{
+    text-decoration: underline;
+}
+.searchPage__resultTitle > h2 {
+    font-weight: 500;
+    font-family: arial,sans-serif;
+    word-spacing: .1rem;
+}
+.searchPage__result{
+    margin: 40px 0px;
+}
+.searchPage__resultSnippet{
+    margin-top: 10px;
+    line-height: 1.58;
+}
